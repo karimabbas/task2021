@@ -1,0 +1,244 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+	/*Header*/
+	.menu {
+	    text-align: center;
+	}
+	.menu li a {
+	    margin: 10px;
+	    border-bottom: 2px solid #ffcc01;
+	}
+	/*Hero*/
+	.hero-section {
+		background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("../images/hero-bg.jpg");
+	}
+	.hero-img {
+		background-image: none;
+	}
+	.hero-title {
+	    width: 100%;
+	    top: 42%;
+	}
+	.hero-title h1 {
+	    font-size: 35px;
+	}
+	.submit-btn {
+	    width: 28%;
+	}
+	.scroll-down {
+	    bottom: -70px;
+	    left: 50%;
+	    transform: translate(-50%);
+	}
+	.scroll-down span, .scroll-down i {
+		color: #fff;
+	}
+	/*Statistics*/
+	.statistics-info h2 {
+		font-size: 28px;
+	}
+	.single-counter {
+		margin: 30px 0;
+	}
+	/*Appartment*/
+	.section-heading {
+	    font-size: 30px;
+	}
+	.all-appartment-btn {
+	    margin-top: 15px;
+	    margin-left: 0;
+	}
+	.apparment-btn {
+	    width: 98%;
+	}
+	/*Work*/
+	.single-work-item {
+	    margin-bottom: 30px;
+	}
+	/*Add*/
+	.single-add {
+		margin-bottom: 45px;
+	}
+	.add-img-area.shadow {
+	    margin-bottom: 45px;
+	}
+	/*Agent*/
+	.single-agent {
+	    margin-bottom: 30px;
+	}
+	/*Footer*/
+	.footer-text {
+	    margin-bottom: 25px;
+	    text-align: center;
+	}
+	.wedget-logo {
+	    margin-bottom: 30px;
+	}
+	.footer-wedget {
+		margin-bottom: 25px;
+	    text-align: center;
+	}
+
+
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+	/*Header*/
+	.menu {
+	    text-align: center;
+	}
+	.menu li a {
+	    margin: 10px;
+	    border-bottom: 2px solid #ffcc01;
+	}
+	/*Hero*/
+	.hero-section {
+		background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("../images/hero-bg.jpg");
+	}
+	.hero-img {
+		background-image: none;
+	}
+	.hero-title {
+	    width: 100%;
+	    top: 45%;
+	}
+	.hero-title h1 {
+	    font-size: 40px;
+	}
+	.submit-btn {
+	    width: 28%;
+	}
+	.scroll-down {
+	    bottom: -130px;
+	    left: 50%;
+	    transform: translate(-50%);
+	}
+	.scroll-down span, .scroll-down i {
+		color: #fff;
+	}
+	/*Statistics*/
+	.statistics-info h2 {
+		font-size: 32px;
+	}
+	/*Appartment*/
+	.section-heading {
+	    font-size: 35px;
+	}
+	.all-appartment-btn {
+	    margin-top: 15px;
+	    margin-left: 0;
+	}
+	.apparment-btn {
+	    width: 98%;
+	}
+	/*Work*/
+	.single-work-item {
+	    margin-bottom: 30px;
+	}
+	/*Service*/
+	.service-img {
+	    margin-bottom: 30px;
+	}
+	/*Add*/
+	.single-add {
+		margin-bottom: 45px;
+	}
+	.add-img-area.shadow {
+	    margin-bottom: 45px;
+	}
+	/*Agent*/
+	.single-agent {
+	    margin-bottom: 30px;
+	}
+	/*Footer*/
+	.footer-text {
+	    margin-bottom: 25px;
+	    text-align: center;
+	}
+	.wedget-logo {
+	    margin-bottom: 30px;
+	}
+	.footer-wedget {
+		margin-bottom: 25px;
+	    text-align: center;
+	}
+
+
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+	/*Header*/
+	.menu {
+	    text-align: center;
+	}
+	.menu li a {
+	    margin: 10px;
+	    border-bottom: 2px solid #ffcc01;
+	}
+	/*Hero*/
+	.hero-section {
+		background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("../images/hero-bg.jpg");
+	}
+	.hero-img {
+		background-image: none;
+	}
+	.hero-title {
+	    width: 100%;
+	    top: 44%;
+	}
+	.hero-title h1 {
+	    font-size: 50px;
+	}
+	.submit-btn {
+	    width: 28%;
+	}
+	.scroll-down {
+	    bottom: -135px;
+	    left: 50%;
+	    transform: translate(-50%);
+	}
+	.scroll-down span, .scroll-down i {
+		color: #fff;
+	}
+	/*Statistics*/
+	.single-counter {
+		margin: 30px 0;
+	}
+	/*Work*/
+	.item-body {
+	    padding: 0 14px 30px 13px;
+	}
+	/*Service*/
+	.service-img {
+	    margin-bottom: 30px;
+	}
+	/*Footer*/
+	.footer-text h2 {
+		font-size: 32px;
+	}
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+	/*Header*/
+	.menu li a {
+		padding-left: 14px !important;
+		padding-right: 14px !important;
+	}
+
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+
+
+}
